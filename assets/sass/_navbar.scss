@@ -1,0 +1,45 @@
+@import "./mixin";
+
+.navbar {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  input {
+    display: none;
+  }
+  label {
+    display: none;
+  }
+  .navbar_link {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      li {
+        a {
+          font-family: "Poppins";
+          font-weight: 400;
+          font-size: 18px;
+          text-transform: capitalize;
+          color: #2b2b2b;
+        }
+      }
+    }
+  }
+  .navbar_fa{
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        li{
+            i{
+                color: #2B2B2B;
+                font-size: 18px;
+            }
+        }
+    }
+  }
+}
